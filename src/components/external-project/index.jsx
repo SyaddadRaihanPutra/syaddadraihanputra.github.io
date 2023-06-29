@@ -102,21 +102,22 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                     {item.title}
                   </h2>
                   {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-20 h-20 mask mask-squircle">
+                    <div className="opacity-90">
+                      <div className="w-full h-auto">
                         <LazyImage
                           src={item.imageUrl}
                           alt={'thumbnail'}
+                          className="rounded-2xl"
                           placeholder={skeleton({
                             width: 'w-full',
-                            height: 'h-full',
+                            height: 'h-auto',
                             shape: '',
                           })}
                         />
                       </div>
                     </div>
                   )}
-                  <p className="mt-1 text-base-content text-opacity-60 text-sm">
+                  <p className="mt-2 text-base-content text-opacity-60 text-sm">
                     {item.description}
                   </p>
                 </div>
