@@ -139,14 +139,14 @@ const config = {
       title: 'SIJURNAL',
       description:
         'Aplikasi jurnal harian untuk guru dalam kegiatan belajar mengajar. (Fullstack)',
-      imageUrl: 'https://syaddad.onweb.im/sijurnal.png',
+      imageUrl: 'https://www.syaddad.cu.ma/sijurnal.png',
       link: 'https://sijurnal.smkn1jakarta.sch.id',
     },
     {
       title: 'E-Absensi',
       description:
         'Aplikasi absensi siswa berbasis web. (Front-end)',
-      imageUrl: 'https://syaddad.onweb.im/absensi.png',
+      imageUrl: 'https://www.syaddad.cu.ma/absensi.png',
       link: 'https://absensi.smkn1jakarta.sch.id',
     },
   ],
